@@ -1,0 +1,102 @@
+body{
+  font-family: 'Nunito', sans-serif;
+  font-weight: bold;
+}
+/* some group stlyes using class */
+.blue-text{
+  color:#192C52;
+}
+.red-text{
+  color:rgba(227, 11, 24, 0.9);
+}
+.general-btn{
+  height: 3rem;
+  width:8rem;
+  background-color:  #192C52;
+}
+/* STYLES FOR THE NAVBAR */
+
+nav{
+    background-color: #C4A47B;  
+}
+/* CELEBRATE YOUR SKIN CONTAINER */
+.celebrateYourSkin{
+  background-color: #C4A47B; 
+}
+.readArticle-btn{
+  color: white;
+  background-color:#C4A47B ;
+  border: 1px solid white;
+  height:3rem;
+  width: 10rem;
+}
+.readArticle-btn:hover {
+  color: #C4A47B;
+  background-color: white;
+  text-decoration: none;
+}
+/* EXPLORE OUR COMMUNITY CONTAINER */
+.exploreOurCommunity{
+  /* background; */
+  background: #8b7353;
+  
+}
+.img-icon{
+  height:2.5rem;
+  width:2.5rem;
+}
+/* PRODUCTS CONTAINER STYLES */
+.products{
+  background-color: rgba(25, 44, 82, 0.07);
+}
+/* ACHIEVEMENTS CONTAINER STYLES */
+.achievements{
+  
+background: rgba(227, 11, 24, 0.11)
+}
+/* FORM STYLES */
+.formContainer{
+  background-color:  #C4A47B;;
+}
+/*SIMPLE STYLES FOR THE FOOTER */
+footer {
+    color: white;
+    background-color: #C4A47B;;
+  }
+  
+ 
+  footer h5 {
+    font-size: 90%;
+  }
+  
+  footer a {
+    color: white;
+    font-size: 80%;
+    margin-top: .7em;
+    padding: .5em;
+  }
+  
+  footer a:hover {
+    color: #443DF5;
+    background-color: white;
+    text-decoration: none;
+  }
+  
+  footer p {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  
+  .fa-twitter, .fa-facebook-f, .fa-instagram {
+    margin-left: .6em;
+  }
+  
+  .fa-twitter:hover, .fa-facebook-f:hover, .fa-instagram:hover {
+    color: #333;
+  }
+  
+  #copyright {
+    background-color: #333;
+    color: white;
+    font-size: 80%;
+  }
