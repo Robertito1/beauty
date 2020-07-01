@@ -54,14 +54,26 @@ nav{
   
 background: rgba(227, 11, 24, 0.11)
 }
+/* CAROUSELS */
+.carousel{
+  height: 35rem;
+  width: 30rem;
+ 
+}
 /* FORM STYLES */
 .formContainer{
-  background-color:  #C4A47B;
+  background-color:  #000000;
+}
+.submitbtn{
+  border-radius: none;
+  background-color: #192C52;
+  height: 2.3rem;
+  width: 4rem
 }
 /*SIMPLE STYLES FOR THE FOOTER */
 footer {
     color: white;
-    background-color: #C4A47B;
+    background-color: #000000;
   }
   
  
