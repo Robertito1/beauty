@@ -37,6 +37,16 @@ body{
   right: auto;
 }
 
+.img-container{
+  position:relative;
+  display:inline-block;
+}
+.img-container .overlay{
+  position:absolute;
+ margin: auto;
+
+}
+
 /* STYLES FOR THE NAVBAR */
 
 nav{
@@ -164,6 +174,7 @@ footer {
 
   @media (max-width: 600px){
    .portraitImage{
+     margin: auto;
      width: 300px;
    }
 
@@ -176,6 +187,10 @@ footer {
      width: 300px;
      margin: auto;
     
+   }
+   .flex1{
+     flex: 1;
+     order: 1;
    }
 .exploreOurCommunity{
   margin: auto;
