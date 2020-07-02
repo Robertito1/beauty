@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
 body{
   font-family: 'Nunito', sans-serif;
   font-weight: bold;
@@ -38,6 +41,11 @@ body{
 
 nav{
     background-color: #FFFFFF;  
+    font-family: 'poppins', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 36px;
 }
 /* CELEBRATE YOUR SKIN CONTAINER */
 .celebrateYourSkin{
@@ -93,7 +101,12 @@ background: rgba(227, 11, 24, 0.11)
 .carousel{
   height: 35rem;
   width: 30rem;
+  margin: auto;
  
+}
+.imageslider{
+  justify-content: center;
+  margin: auto;
 }
 /* FORM STYLES */
 .formContainer{
@@ -158,8 +171,18 @@ footer {
      width:200px;
      font-size: large;
    }
-
+  
+   .carousel{
+     width: 300px;
+     margin: auto;
+    
+   }
 .exploreOurCommunity{
   margin: auto;
+}
+
+.display-2{
+  font-size: 4rem;
+  font-weight: bolder;
 }
   }
