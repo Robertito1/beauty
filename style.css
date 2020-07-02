@@ -5,19 +5,39 @@ body{
 /* some group stlyes using class */
 .blue-text{
   color:#192C52;
+  font-weight: bolder;
 }
 .red-text{
   color:rgba(227, 11, 24, 0.9);
+  font-weight: bolder;
 }
 .general-btn{
   height: 3rem;
   width:8rem;
+  border-radius: 4px;
   background-color:  #192C52;
 }
+
+.fixOverlayDiv{
+  position: relative;
+  width: 100%;
+  padding: 0px;
+}
+
+.overlayText{
+  position: absolute;
+  left: 0;
+  width: 100%;
+  top:50%;
+  bottom:auto;
+  left:50%;
+  right: auto;
+}
+
 /* STYLES FOR THE NAVBAR */
 
 nav{
-    background-color: #C4A47B;  
+    background-color: #FFFFFF;  
 }
 /* CELEBRATE YOUR SKIN CONTAINER */
 .celebrateYourSkin{
@@ -25,6 +45,7 @@ nav{
 }
 .readArticle-btn{
   color: white;
+  border-radius: 4PX;
   background-color:#C4A47B ;
   border: 1px solid white;
   height:3rem;
@@ -49,6 +70,20 @@ nav{
 .products{
   background-color: rgba(25, 44, 82, 0.07);
 }
+  /* CUSTOMERS REVIEWS AND TESTIMONIES */
+
+  .customerImage{
+    height: 5rem;
+    width:5rem;
+    opacity: 0.5;
+  }
+
+  .centerImage{
+    height: 5rem;
+    width:5rem;
+    line-height: 33px; 
+ }
+
 /* ACHIEVEMENTS CONTAINER STYLES */
 .achievements{
   
@@ -123,4 +158,8 @@ footer {
      width:200px;
      font-size: large;
    }
+
+.exploreOurCommunity{
+  margin: auto;
+}
   }
